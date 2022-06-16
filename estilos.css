@@ -1,0 +1,248 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+header{
+    width: 100%;
+    height: 60px;
+}
+
+header nav{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+header nav .nav-right-section{
+    width: 250px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    align-items: center;
+    
+}
+
+.nav-right-section a{
+    margin-right: 10px;
+    color: black;
+    
+}
+
+nav .nav-right-section .menu-icon{
+    background-image: url(img/grid.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+nav .nav-right-section img{
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+main{
+    
+    text-align: center;
+
+    
+}
+
+main .main-logo{
+    width: 550px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+    margin-top: 90px;
+
+}
+
+main .main-logo img{
+    width: 272px;
+
+}
+main .main-input{
+    width: 550px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+
+}
+
+main .main-input-contenido{
+    width: 500px;
+    border-radius: 100px;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-input input{
+    width: 500px;
+    height: 40px;
+    border: none;
+    outline: none;
+
+
+}
+main .main-input-contenido:hover{
+    box-shadow: 0 1px 6px 0 rgb(65, 62, 62);
+}
+
+main .main-input .icono-buscar{
+    background-image: url(img/icono_busqueda.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 14px;
+    height: 20px;
+    margin-left: 13px;
+    margin-right: 5px;
+}
+main .main-input .icono-microfono{
+    background-image: url(img/Google_mic.svg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 14px;
+    height: 20px;
+    margin-right: 17px;
+}
+
+main .main-buttons{
+    width: 530px;
+    margin: 0 auto;
+
+}
+
+main .main-buttons div{
+    display: inline-block;
+}
+
+main .main-buttons button{
+    height: 40px;
+    background-color: #f8f9fa;
+    border: none;
+    font-size: 14px;
+    color: #5b5c5e;
+    border-radius: 12px;
+    padding: 0 15px;
+    text-align: center;
+    cursor: pointer;
+    margin-right: 10px;
+    font-weight: 500;
+}
+
+main .main-buttons button:hover{
+    height: 40px;
+    background-color: #c3c4c527;
+    border: 1px solid #7e7e7e11;
+    font-size: 14px;
+    border-radius: 12px;
+    padding: 0 15px;
+    text-align: center;
+    cursor: pointer;
+    margin-right: 10px;
+    color: #5b5c5e;
+    font-weight: 500;
+    
+}
+footer{
+    width: 100%;
+    
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+footer .footer_top {
+    background-color: #f2f2f2;
+    list-style: none;
+    font-size: 12px;
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    display: flex;
+    position: relative;
+    color: #70757a;
+    margin: 0%;
+}
+
+.footer_unido{
+    display: flex;
+    margin: 0;
+    flex-direction: row;
+    width: 100%;
+    border-top: 1px solid #dadce0;
+
+}
+.footer_left{
+    
+    background-color: #f2f2f2;
+    width: 60%;
+    font-size: 12x;
+    border-bottom: 1px solid #dadce0;
+    display: inline;
+    color: #202124;
+    justify-content: flex-end;
+    
+}
+.footer_right{
+    
+    background-color: #f2f2f2;
+    list-style: none;
+    width: 40%;
+    font-size: 12px;
+    border-bottom: 1px solid #dadce0;
+    display: inline;
+    display: flex;
+    color: #202124;
+    justify-content: flex-end;  
+}
+
+.footer_left ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-left: 5px;
+    padding-inline-start: 15px;
+
+    
+}
+.footer_left ul li{
+    padding: 2px 8px;
+    
+    
+}
+.footer_left ul li a{
+    color: #70757a;  
+    font-size: 12px;  
+    
+}
+.footer_right ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding-inline-end: 15px;
+    
+}
+.footer_right ul li{
+    padding: 2px 8px;
+}
+.footer_right ul li a{
+    color: #70757a;
+    font-size: 12px; 
+}
